@@ -23,6 +23,8 @@ This project demonstrates the application of classical ML algorithms to high-dim
 | **LUAD** | Lung Adenocarcinoma |
 | **PRAD** | Prostate Adenocarcinoma |
 
+> 📓 **[View the full analysis notebook with inline results →](notebooks/TCGA_Analysis.ipynb)**
+
 ## Results
 
 ### Model Performance (Test Set, 161 samples)
@@ -90,7 +92,7 @@ All models tuned via **GridSearchCV** with **5-fold stratified cross-validation*
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/TCGA-Cancer-Subtype-Classification.git
+git clone https://github.com/sravya0204/TCGA-Cancer-Subtype-Classification.git
 cd TCGA-Cancer-Subtype-Classification
 
 # Install dependencies
@@ -122,7 +124,8 @@ TCGA-Cancer-Subtype-Classification/
 │   └── visualize.py       # PCA plot, feature importance, CM heatmaps
 ├── data/                  # Cached dataset (gitignored)
 ├── outputs/               # Generated figures
-└── notebooks/             # Optional EDA notebooks
+└── notebooks/
+    └── TCGA_Analysis.ipynb # Full analysis with inline plots
 ```
 
 ## Tech Stack
